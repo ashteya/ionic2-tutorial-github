@@ -1,4 +1,3 @@
-import {Injectable} from 'angular2/core';
 import {Page} from 'ionic-framework/ionic';
 import {GitHubService} from '../../services/github';
 
