@@ -14,7 +14,7 @@
     <div padding>
         <button block (click)="getRepos()">Search</button>
     </div>
-    <ion-card *ngFor="#repo of foundRepos">
+    <ion-card *ngFor="#repo of foundRepos" (click)="goToDetails(repo)">
         <ion-card-header>
             {{ repo.name }}
         </ion-card-header>
