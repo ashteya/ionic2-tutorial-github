@@ -1,4 +1,4 @@
-import {Page, NavController} from 'ionic-angular';
+import {Page, NavController} from 'ionic-framework/ionic';
 import {GitHubService} from '../../services/github';
 import {DetailsPage} from '../details/details';
 
