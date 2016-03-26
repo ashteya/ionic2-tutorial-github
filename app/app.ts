@@ -1,4 +1,4 @@
-import {App, Platform} from 'ionic-framework/ionic';
+import {App, Platform} from 'ionic-angular';
 import {HomePage} from './pages/home/home';
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
