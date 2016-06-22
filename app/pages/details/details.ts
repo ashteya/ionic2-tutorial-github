@@ -1,7 +1,8 @@
-import {Page, NavController, NavParams} from 'ionic-angular';
+import { Component } from '@angular/core';
+import { NavController, NavParams } from 'ionic-angular';
 import {GitHubService} from '../../services/github';
 
-@Page({
+@Component({
     templateUrl: 'build/pages/details/details.html',
     providers: [GitHubService]
 })
@@ -28,3 +29,4 @@ export class DetailsPage {
         );
     }
 }
+
